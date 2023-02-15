@@ -1,0 +1,27 @@
+.eng
+{
+    width: 200px;
+    animation: anima_eng 5s infinite linear alternate-reverse;
+}
+@keyframes anima_eng
+{
+    0%   { rotate: -13deg; }
+    100% { rotate: 360deg;  }
+}
+.d {
+    width: 100%;
+    height: 100vh;
+}
+.eng2
+{
+    width: 200px;
+    animation: anima_eng2 5s infinite linear alternate;
+    position: absolute;
+    left: 193px;
+    top: 50px;
+}
+@keyframes anima_eng2
+{
+    0%   { rotate: -0deg; }
+    100% { rotate: 360deg; }
+}
